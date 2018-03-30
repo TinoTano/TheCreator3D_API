@@ -1,119 +1,184 @@
-﻿
-<div id="sidetoggle">
-  <div>
-    <div class="sidefilter">
-      <form class="toc-filter">
-        <span class="glyphicon glyphicon-filter filter-icon"></span>
-        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
-      </form>
-    </div>
-    <div class="sidetoc">
-      <div class="toc" id="toc">
-          
-          <ul class="nav level1">
-            <li>
-              <span class="expand-stub"></span>
-              <a href="TheEngine.html" name="" title="TheEngine">TheEngine</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="TheEngine.TheApplication.html" name="" title="TheApplication">TheApplication</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheAudio.html" name="" title="TheAudio">TheAudio</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheAudioSource.html" name="" title="TheAudioSource">TheAudioSource</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheComponent.html" name="" title="TheComponent">TheComponent</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheData.html" name="" title="TheData">TheData</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheFactory.html" name="" title="TheFactory">TheFactory</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheGameObject.html" name="" title="TheGameObject">TheGameObject</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheInput.html" name="" title="TheInput">TheInput</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheMeshCollider.html" name="" title="TheMeshCollider">TheMeshCollider</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheMeshRenderer.html" name="" title="TheMeshRenderer">TheMeshRenderer</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheParticleEmmiter.html" name="" title="TheParticleEmmiter">TheParticleEmmiter</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheProgressBar.html" name="" title="TheProgressBar">TheProgressBar</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheQuaternion.html" name="" title="TheQuaternion">TheQuaternion</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheRadar.html" name="" title="TheRadar">TheRadar</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheRandom.html" name="" title="TheRandom">TheRandom</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheRectTransform.html" name="" title="TheRectTransform">TheRectTransform</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheRigidBody.html" name="" title="TheRigidBody">TheRigidBody</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheScript.html" name="" title="TheScript">TheScript</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheText.html" name="" title="TheText">TheText</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheTime.html" name="" title="TheTime">TheTime</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheTimer.html" name="" title="TheTimer">TheTimer</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheTransform.html" name="" title="TheTransform">TheTransform</a>
-                  </li>
-                  <li>
-                    <a href="TheEngine.TheVector3.html" name="" title="TheVector3">TheVector3</a>
-                  </li>
-                </ul>  </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a href="TheEngine.TheConsole.html" name="" title="TheEngine.TheConsole">TheEngine.TheConsole</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="TheEngine.TheConsole.TheConsole.html" name="" title="TheConsole">TheConsole</a>
-                  </li>
-                </ul>  </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a href="TheEngine.TheGOAPAgent.html" name="" title="TheEngine.TheGOAPAgent">TheEngine.TheGOAPAgent</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="TheEngine.TheGOAPAgent.TheGOAPAgent.html" name="" title="TheGOAPAgent">TheGOAPAgent</a>
-                  </li>
-                </ul>  </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a href="TheEngine.TheMath.html" name="" title="TheEngine.TheMath">TheEngine.TheMath</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="TheEngine.TheMath.TheMath.html" name="" title="TheMath">TheMath</a>
-                  </li>
-                </ul>  </li>
-          </ul>      </div>
-    </div>
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+       <style>
+  .TocNavigationVertical {
+    margin-top: 24px;
+    font-family: 'Segoe UI';
+  }
+
+  .TocNavigationVertical ul {
+    list-style: none;
+    /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .TocNavigationVertical li {
+    margin-top: 10px;
+    padding-left: 16px;
+  }
+
+  .TocNavigationVertical li:before {
+    content: "";
+    /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #0050c5;
+  }
+
+  .TocNavigationVertical a:link {
+    text-decoration: none;
+    color: #0050c5;
+  }
+
+  .TocNavigationVertical a:visited {
+    text-decoration: none;
+    color: #0050c5;
+  }
+
+  .TocHeader {
+    display: table;
+    height: 130px;
+    overflow: hidden;
+    background-color: #009ba5;
+    width: 100%;
+  }
+
+  .TocHeaderContainer {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  h1 {
+    color: #fff;
+    font-family: 'Segoe UI Light';
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin-left: 48px;
+  }
+</style>
+<div class=" TocHeader">
+  <div class="TocHeaderContainer">
+    <h1>Table of Contents</h1>
   </div>
 </div>
+<div class="TocNavigationVertical" id="toc">
+  <ul class="tocBase tocLevel1">
+    <li>
+      <a class="normal" href="TheEngine.html">TheEngine</a>   
+      <ul class="tocLevel3">
+         
+        <li>
+          <a class="normal" href="TheEngine.TheApplication.html">TheApplication</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheAudio.html">TheAudio</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheAudioSource.html">TheAudioSource</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheComponent.html">TheComponent</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheData.html">TheData</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheFactory.html">TheFactory</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheGameObject.html">TheGameObject</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheInput.html">TheInput</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheMeshCollider.html">TheMeshCollider</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheMeshRenderer.html">TheMeshRenderer</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheParticleEmmiter.html">TheParticleEmmiter</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheProgressBar.html">TheProgressBar</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheQuaternion.html">TheQuaternion</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheRadar.html">TheRadar</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheRandom.html">TheRandom</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheRectTransform.html">TheRectTransform</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheRigidBody.html">TheRigidBody</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheScript.html">TheScript</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheText.html">TheText</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheTime.html">TheTime</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheTimer.html">TheTimer</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheTransform.html">TheTransform</a>             </li>
+        
+        <li>
+          <a class="normal" href="TheEngine.TheVector3.html">TheVector3</a>             </li>
+         
+      </ul>
+    </li>
+    <li>
+      <a class="normal" href="TheEngine.TheConsole.html">TheEngine.TheConsole</a>   
+      <ul class="tocLevel3">
+         
+        <li>
+          <a class="normal" href="TheEngine.TheConsole.TheConsole.html">TheConsole</a>             </li>
+         
+      </ul>
+    </li>
+    <li>
+      <a class="normal" href="TheEngine.TheGOAPAgent.html">TheEngine.TheGOAPAgent</a>   
+      <ul class="tocLevel3">
+         
+        <li>
+          <a class="normal" href="TheEngine.TheGOAPAgent.TheGOAPAgent.html">TheGOAPAgent</a>             </li>
+         
+      </ul>
+    </li>
+    <li>
+      <a class="normal" href="TheEngine.TheMath.html">TheEngine.TheMath</a>   
+      <ul class="tocLevel3">
+         
+        <li>
+          <a class="normal" href="TheEngine.TheMath.TheMath.html">TheMath</a>             </li>
+         
+      </ul>
+    </li>
+  </ul>
+</div></article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
