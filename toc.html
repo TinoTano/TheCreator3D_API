@@ -1,84 +1,20 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
-<html>
-  <head>
-    <link rel="stylesheet" href="styles/docfx.vendor.css">
-    <link rel="stylesheet" href="styles/default.css">
-    <link rel="stylesheet" href="styles/main.css">
-  </head>
-  <body>
-    <article>
-       <style>
-  .TocNavigationVertical {
-    margin-top: 24px;
-    font-family: 'Segoe UI';
-  }
-
-  .TocNavigationVertical ul {
-    list-style: none;
-    /* Remove list bullets */
-    padding: 0;
-    margin: 0;
-    font-size: 22px;
-  }
-
-  .TocNavigationVertical li {
-    margin-top: 10px;
-    padding-left: 16px;
-  }
-
-  .TocNavigationVertical li:before {
-    content: "";
-    /* Insert content that looks like bullets */
-    padding-right: 8px;
-    color: #0050c5;
-  }
-
-  .TocNavigationVertical a:link {
-    text-decoration: none;
-    color: #0050c5;
-  }
-
-  .TocNavigationVertical a:visited {
-    text-decoration: none;
-    color: #0050c5;
-  }
-
-  .TocHeader {
-    display: table;
-    height: 130px;
-    overflow: hidden;
-    background-color: #009ba5;
-    width: 100%;
-  }
-
-  .TocHeaderContainer {
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-  h1 {
-    color: #fff;
-    font-family: 'Segoe UI Light';
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-    margin-left: 48px;
-  }
-</style>
-<div class=" TocHeader">
-  <div class="TocHeaderContainer">
-    <h1>Table of Contents</h1>
+﻿
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+            <li>
+              <a href="api/index.html" name="api/toc.html" title="API Documentation">API Documentation</a>
+            </li>
+          </ul>      </div>
+    </div>
   </div>
 </div>
-<div class="TocNavigationVertical" id="toc">
-  <ul class="tocBase tocLevel1">
-    <li>
-      <a class="normal" href="api/index.html">API Documentation</a>         </li>
-  </ul>
-</div></article>
-    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="styles/docfx.js"></script>
-    <script type="text/javascript" src="styles/main.js"></script>
-  </body>
-</html>
