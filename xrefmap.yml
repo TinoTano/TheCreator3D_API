@@ -1489,6 +1489,19 @@ references:
   isSpec: "True"
   fullName: TheEngine.TheQuaternion.FromEulerAngles
   nameWithType: TheQuaternion.FromEulerAngles
+- uid: TheEngine.TheQuaternion.FromTwoVectors(TheEngine.TheVector3,TheEngine.TheVector3)
+  name: FromTwoVectors(TheVector3, TheVector3)
+  href: api/TheEngine.TheQuaternion.html#TheEngine_TheQuaternion_FromTwoVectors_TheEngine_TheVector3_TheEngine_TheVector3_
+  commentId: M:TheEngine.TheQuaternion.FromTwoVectors(TheEngine.TheVector3,TheEngine.TheVector3)
+  fullName: TheEngine.TheQuaternion.FromTwoVectors(TheEngine.TheVector3, TheEngine.TheVector3)
+  nameWithType: TheQuaternion.FromTwoVectors(TheVector3, TheVector3)
+- uid: TheEngine.TheQuaternion.FromTwoVectors*
+  name: FromTwoVectors
+  href: api/TheEngine.TheQuaternion.html#TheEngine_TheQuaternion_FromTwoVectors_
+  commentId: Overload:TheEngine.TheQuaternion.FromTwoVectors
+  isSpec: "True"
+  fullName: TheEngine.TheQuaternion.FromTwoVectors
+  nameWithType: TheQuaternion.FromTwoVectors
 - uid: TheEngine.TheQuaternion.GetHashCode
   name: GetHashCode()
   href: api/TheEngine.TheQuaternion.html#TheEngine_TheQuaternion_GetHashCode
@@ -1567,6 +1580,19 @@ references:
   isSpec: "True"
   fullName: TheEngine.TheQuaternion.Lerp
   nameWithType: TheQuaternion.Lerp
+- uid: TheEngine.TheQuaternion.LookRotation(TheEngine.TheVector3,TheEngine.TheVector3)
+  name: LookRotation(TheVector3, TheVector3)
+  href: api/TheEngine.TheQuaternion.html#TheEngine_TheQuaternion_LookRotation_TheEngine_TheVector3_TheEngine_TheVector3_
+  commentId: M:TheEngine.TheQuaternion.LookRotation(TheEngine.TheVector3,TheEngine.TheVector3)
+  fullName: TheEngine.TheQuaternion.LookRotation(TheEngine.TheVector3, TheEngine.TheVector3)
+  nameWithType: TheQuaternion.LookRotation(TheVector3, TheVector3)
+- uid: TheEngine.TheQuaternion.LookRotation*
+  name: LookRotation
+  href: api/TheEngine.TheQuaternion.html#TheEngine_TheQuaternion_LookRotation_
+  commentId: Overload:TheEngine.TheQuaternion.LookRotation
+  isSpec: "True"
+  fullName: TheEngine.TheQuaternion.LookRotation
+  nameWithType: TheQuaternion.LookRotation
 - uid: TheEngine.TheQuaternion.Magnitude(TheEngine.TheQuaternion)
   name: Magnitude(TheQuaternion)
   href: api/TheEngine.TheQuaternion.html#TheEngine_TheQuaternion_Magnitude_TheEngine_TheQuaternion_
@@ -2092,12 +2118,30 @@ references:
   isSpec: "True"
   fullName: TheEngine.TheRectTransform.Size
   nameWithType: TheRectTransform.Size
+- uid: TheEngine.TheResources
+  name: TheResources
+  href: api/TheEngine.TheResources.html
+  commentId: T:TheEngine.TheResources
+  fullName: TheEngine.TheResources
+  nameWithType: TheResources
 - uid: TheEngine.TheRigidBody
   name: TheRigidBody
   href: api/TheEngine.TheRigidBody.html
   commentId: T:TheEngine.TheRigidBody
   fullName: TheEngine.TheRigidBody
   nameWithType: TheRigidBody
+- uid: TheEngine.TheRigidBody.AddTorque(System.Single,System.Single,System.Single,System.Int32)
+  name: AddTorque(Single, Single, Single, Int32)
+  href: api/TheEngine.TheRigidBody.html#TheEngine_TheRigidBody_AddTorque_System_Single_System_Single_System_Single_System_Int32_
+  commentId: M:TheEngine.TheRigidBody.AddTorque(System.Single,System.Single,System.Single,System.Int32)
+  fullName: TheEngine.TheRigidBody.AddTorque(System.Single, System.Single, System.Single, System.Int32)
+  nameWithType: TheRigidBody.AddTorque(Single, Single, Single, Int32)
+- uid: TheEngine.TheRigidBody.AddTorque*
+  name: AddTorque
+  href: api/TheEngine.TheRigidBody.html#TheEngine_TheRigidBody_AddTorque_
+  commentId: Overload:TheEngine.TheRigidBody.AddTorque
+  fullName: TheEngine.TheRigidBody.AddTorque
+  nameWithType: TheRigidBody.AddTorque
 - uid: TheEngine.TheRigidBody.Kinematic
   name: Kinematic
   href: api/TheEngine.TheRigidBody.html#TheEngine_TheRigidBody_Kinematic
@@ -2111,6 +2155,18 @@ references:
   isSpec: "True"
   fullName: TheEngine.TheRigidBody.Kinematic
   nameWithType: TheRigidBody.Kinematic
+- uid: TheEngine.TheRigidBody.SetAngularVelocity(System.Single,System.Single,System.Single)
+  name: SetAngularVelocity(Single, Single, Single)
+  href: api/TheEngine.TheRigidBody.html#TheEngine_TheRigidBody_SetAngularVelocity_System_Single_System_Single_System_Single_
+  commentId: M:TheEngine.TheRigidBody.SetAngularVelocity(System.Single,System.Single,System.Single)
+  fullName: TheEngine.TheRigidBody.SetAngularVelocity(System.Single, System.Single, System.Single)
+  nameWithType: TheRigidBody.SetAngularVelocity(Single, Single, Single)
+- uid: TheEngine.TheRigidBody.SetAngularVelocity*
+  name: SetAngularVelocity
+  href: api/TheEngine.TheRigidBody.html#TheEngine_TheRigidBody_SetAngularVelocity_
+  commentId: Overload:TheEngine.TheRigidBody.SetAngularVelocity
+  fullName: TheEngine.TheRigidBody.SetAngularVelocity
+  nameWithType: TheRigidBody.SetAngularVelocity
 - uid: TheEngine.TheRigidBody.SetLinearVelocity(System.Single,System.Single,System.Single)
   name: SetLinearVelocity(Single, Single, Single)
   href: api/TheEngine.TheRigidBody.html#TheEngine_TheRigidBody_SetLinearVelocity_System_Single_System_Single_System_Single_
@@ -2421,6 +2477,19 @@ references:
   isSpec: "True"
   fullName: TheEngine.TheTime.TimeScale
   nameWithType: TheTime.TimeScale
+- uid: TheEngine.TheTime.TimeSinceStart
+  name: TimeSinceStart
+  href: api/TheEngine.TheTime.html#TheEngine_TheTime_TimeSinceStart
+  commentId: P:TheEngine.TheTime.TimeSinceStart
+  fullName: TheEngine.TheTime.TimeSinceStart
+  nameWithType: TheTime.TimeSinceStart
+- uid: TheEngine.TheTime.TimeSinceStart*
+  name: TimeSinceStart
+  href: api/TheEngine.TheTime.html#TheEngine_TheTime_TimeSinceStart_
+  commentId: Overload:TheEngine.TheTime.TimeSinceStart
+  isSpec: "True"
+  fullName: TheEngine.TheTime.TimeSinceStart
+  nameWithType: TheTime.TimeSinceStart
 - uid: TheEngine.TheTimer
   name: TheTimer
   href: api/TheEngine.TheTimer.html
